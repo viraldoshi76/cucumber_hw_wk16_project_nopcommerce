@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11450069400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User Should Add product to shopping cart successfully",
+        "description": "",
+        "id": "test-suite;user-should-add-product-to-shopping-cart-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245851400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "TopMenuStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 415660300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I hoover on computer tab",
+            "match": {
+              "location": "TestSuiteStepdefs.iHooverOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1637952000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Desktop Link",
+            "match": {
+              "location": "TestSuiteStepdefs.iClickOnDesktopLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 369811500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select sort by option A to Z",
+            "match": {
+              "location": "TestSuiteStepdefs.iSelectSortByOptionAToZ()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2145950000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Build Your own computer Add To Cart Button",
+            "match": {
+              "location": "TestSuiteStepdefs.iClickOnBuildYourOwnComputerAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3076966700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should navigate to Build You Own Computer Page \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 50
+                }
+              ],
+              "location": "TestSuiteStepdefs.iShouldNavigateToBuildYouOwnComputerPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234818800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select two.two processor",
+            "match": {
+              "location": "TestSuiteStepdefs.iSelectTwoTwoProcessor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331708200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Select eight GB Ram",
+            "match": {
+              "location": "TestSuiteStepdefs.iSelectEightGBRam()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320417800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select four hundred GB HDD",
+            "match": {
+              "location": "TestSuiteStepdefs.iSelectFourHundredGBHDD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152404400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Select Vista Home OS",
+            "match": {
+              "location": "TestSuiteStepdefs.iSelectVistaHomeOS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173327400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select Total Commander software",
+            "match": {
+              "location": "TestSuiteStepdefs.iSelectTotalCommanderSoftware()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2099889300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I check the price \"$1,475.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$1,475.00",
+                  "offset": 19
+                }
+              ],
+              "location": "TestSuiteStepdefs.iCheckThePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163840600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on Add to Cart button",
+            "match": {
+              "location": "TestSuiteStepdefs.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2090398600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be able to add product successfully \"The product has been added to your shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 46
+                }
+              ],
+              "location": "TestSuiteStepdefs.iShouldBeAbleToAddProductSuccessfully(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125503700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on alert message",
+            "match": {
+              "location": "TestSuiteStepdefs.iClickOnAlertMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Suite",
+    "description": "As a user I should be able to add product to cart on nopcommerce website",
+    "id": "test-suite",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefiles/TestSuite.feature"
+  }
+]
